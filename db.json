@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "marwen",
+      "email": "m@gmail.com",
+      "password": "$2b$10$U.c1UMLKY9zmutNgXvK1T.XYgy9e4plVFMWteJp0RTPxRtyjPzsmi"
+    },
+    {
+      "username": "marwen27",
+      "email": "mar@gmail.com",
+      "password": "$2b$10$gYHbhkvNIF4aSrXZSc2XCu9aNNg28vdoi.DPZQbTZq9idHyzIl08i"
+    },
+    {
+      "username": "marwen1234",
+      "email": "marwen@gmail.com",
+      "password": "$2b$10$wk7.QcbAuwD8WTwdQV3r0OhfYqFGSPc8qIcKi824g4Z/H5KJ9J9za"
+    },
+    {
+      "username": "marwen12",
+      "email": "new@gmail.com",
+      "password": "$2b$10$YzgZLpOrubRydbVJLVheJeKlZ1QMnNNVhQX3dYauwjjx8lWPtCH.G"
+    }
+  ]
+}
