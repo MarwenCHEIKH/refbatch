@@ -10,7 +10,7 @@ const path = require("path");
 const app = express();
 
 const jsonServerRouter = jsonServer.router(path.join(__dirname, "db.json"));
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const privateKey = fs.readFileSync("private.key", "utf-8");
 
