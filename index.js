@@ -48,7 +48,7 @@ function writeUsersToDb(users) {
     JSON.stringify(dbData, null, 2)
   );
 }
-app.get("/", authenticate, (req, res) => {
+app.get("/", (req, res) => {
   
   res.json("deployed successfully");
 });
