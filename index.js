@@ -11,7 +11,7 @@ const app = express();
 
 const jsonServerRouter = jsonServer.router(path.join(__dirname, "db.json"));
 const port = process.env.PORT || 80;
-const ip = '51.20.81.67';
+const ip = '0.0.0.0';
 
 const privateKey = fs.readFileSync("private.key", "utf-8");
 
