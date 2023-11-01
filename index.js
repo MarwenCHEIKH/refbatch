@@ -84,5 +84,5 @@ app.post("/register", (req, res) => {
 app.use("/users", jsonServerRouter);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is not running on http://localhost:${port}`);
 });
