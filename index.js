@@ -11,6 +11,7 @@ const app = express();
 
 const jsonServerRouter = jsonServer.router(path.join(__dirname, "db.json"));
 const port = process.env.PORT || 80;
+const ip = '51.20.81.67';
 
 const privateKey = fs.readFileSync("private.key", "utf-8");
 
@@ -86,6 +87,6 @@ app.post("/register", (req, res) => {
 // Use JSON Server for user management endpoints
 app.use("/users", jsonServerRouter);
 
-app.listen(port, () => {
+app.listen(port,ip, () => {
   console.log(`Server is not running on http://localhost:${port}`);
 });
