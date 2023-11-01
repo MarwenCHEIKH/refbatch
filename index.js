@@ -47,7 +47,10 @@ function writeUsersToDb(users) {
     JSON.stringify(dbData, null, 2)
   );
 }
-
+app.get("/", authenticate, (req, res) => {
+  
+  res.json("deployed successfully");
+});
 // Route for user login
 app.post("/login", authenticate, (req, res) => {
   const token = jwt.sign({ username: req.body.username }, privateKey, {
